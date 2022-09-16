@@ -48,4 +48,11 @@ footer
   max-width: 282px;
 }
 
-
+@media only screen and (max-width:922px ) 
+{
+  .footer__last-text
+  {
+    font-size: 12px;
+    line-height: 22.8px;
+  }
+}

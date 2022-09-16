@@ -933,21 +933,23 @@ body {
   background-color: #DC7000;
 }
 
-@media only screen and (min-width: 922) {
+@media only screen and (max-width: 922px) {
   .content__title {
     font-size: 22px;
     line-height: 33px;
     margin-bottom: 34px !important;
   }
   .content__text {
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 26px;
+    font-size: 13px;
+    line-height: 20px;
   }
   .content__second-text {
     font-weight: 400;
-    font-size: 17px;
-    line-height: 26px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .content__btn {
+    margin-bottom: 66px;
   }
 }
 .contact__inner {
@@ -965,9 +967,40 @@ body {
   margin-bottom: 74px;
 }
 
+.contact__inner-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.contact__inner-text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+}
+
 @media only screen and (max-width: 922px) {
+  .contact__inner {
+    margin: 0 12px;
+    padding: 30px 21px 20px !important;
+  }
   .contact__text {
+    font-size: 12px;
     margin-bottom: 41px;
+  }
+  .contact__title {
+    font-size: 20px;
+    line-height: 37.5px;
+    color: #222222;
+  }
+  .contact__inner-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .contact__inner-text {
+    font-size: 15px;
+    line-height: 22px;
   }
 }
 .contact__btn {
@@ -1028,4 +1061,11 @@ footer {
 
 .footer__info {
   max-width: 282px;
+}
+
+@media only screen and (max-width: 922px) {
+  .footer__last-text {
+    font-size: 12px;
+    line-height: 22.8px;
+  }
 }/*# sourceMappingURL=main.css.map */

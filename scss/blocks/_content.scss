@@ -44,7 +44,7 @@
 
 
 
-@media only screen and (min-width:922) {
+@media only screen and (max-width:922px) {
 
   .content__title
   {
@@ -54,17 +54,20 @@
   }
   
   .content__text {
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 26px;
+    font-size: 13px;
+    line-height: 20px;
   }
   
   .content__second-text {
     font-weight: 400;
-    font-size: 17px;
-    line-height: 26px;
+    font-size: 12px;
+    line-height: 18px;
   }
-
+  
+  .content__btn 
+  {
+    margin-bottom: 66px;
+  }
   
 }
 
