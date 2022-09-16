@@ -1,0 +1,105 @@
+.adres
+{
+  margin-right: 100px;
+}
+
+.adres-style
+{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #1A1A1A;
+}
+
+.adres::before
+{
+  display: block;
+  content:"";
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  background-image: url(../images/Vector-lokation.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tel::before
+{
+  display: block;
+  content:"";
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  background-image: url(../images/phone-call\ \(4\)\ 1-tel.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar
+{
+  background: linear-gradient(90.05deg, #E47500 -5.66%, #DF7C14 115.63%);
+}
+
+.navbar-toggler
+{
+  border: none;
+}
+
+.navbar-toggler:focus 
+{
+  box-shadow: none;
+}
+
+.nav-item
+{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+@media only screen and (min-width:992px) 
+{
+  .asdf
+  {
+    display: flex;
+    align-items: center;
+  }
+  
+  .asdf::before
+  {
+    display: block;
+    content:"";
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+}
+
+.nav-link
+{
+  margin-right: 60px;
+  color: #FFFFFF;
+}
+
+.nav-btn
+{
+  padding: 10px 28px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #DC7000;
+  background: #FFFFFF;
+  border-radius: 6px;
+}
+
+
+
+
+

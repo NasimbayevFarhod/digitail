@@ -1,0 +1,162 @@
+.carousel
+{
+  padding: 69px 0 100px;
+  background-color: #F5F5F5;
+}
+
+.carousel__box-title
+{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 187.5%;
+  color: #222222;
+}
+
+
+.carousel__box-text
+{
+  max-width: 545px;
+  margin-bottom: 65px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187.5%;
+  color: #525252;
+}
+
+
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
+
+.carousel__card
+{
+  max-width: 378px;
+}
+
+.owl-carousel
+{
+  max-width: 1440px;
+}
+
+.owl-nav
+{
+  position: absolute;
+  top: -140px;
+  right: 135px;
+}
+
+.owl-prev,
+.owl-next {
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+}
+
+.carousel-list {
+    padding-bottom: 24px;
+    position: relative;
+}
+
+.carousel__card
+{
+  padding: 37px 39px 39px 35px;
+  background-color: #FFFFFF !important;
+
+}
+
+.carousel__span
+{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 187.5%;
+  color: #0CBE64;
+  background-color: #0cbe6426;
+}
+
+.carousel__span-red
+{
+  color: #DC0000;
+  background: #dc00001a;
+}
+
+.carousel__span-purpel
+{
+  color: #B000DC;
+  background: #b000dc1c;
+}
+
+.carousel__span-blue
+{
+  color: #0058DC;
+  background: rgba(0, 88, 220, 0.09);
+}
+
+.carousel__title
+{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 187.5%;
+}
+
+.carousel__text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 187.5%;
+  color: #525252;
+  
+}
+
+.carousel__link
+{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 187.5%;
+  color: #DC7000;
+  
+}
+
+.carousel__link::after
+{
+  display: block;
+  content: "";
+  width: 14px;
+  height: 12px;
+  margin-left: 14px;
+  background-image: url(../images/Vector--_.svg);
+  background-size: cover;
+}
+
+
+@media only screen and (max-width:700px) {
+
+  .carousel__box
+  {
+    padding:0 28px;
+  }
+
+  .carousel
+  {
+    padding: 55px 0 140px;
+  }
+
+  .carousel__box-title
+  {
+    font-size: 24px;
+    line-height: 45px;
+  }
+  
+  .item
+  {
+    padding: 0 40px;
+  }
+
+  .owl-nav
+  {
+    top: 430px;
+    right: 40px;
+  }
+}
+

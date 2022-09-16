@@ -1,0 +1,150 @@
+
+.hero
+{
+  padding: 102px 0 106px;
+}
+
+.orange-text
+{
+  margin-bottom: 17px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 155.2%;
+  color: #E87D0E;
+}
+
+.hero__title
+{
+  margin-bottom: 26px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 155.2%;
+  color: #000000;
+}
+
+.hero__text
+{
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  color: #000000;
+}
+
+
+.hero__btn
+{
+  padding: 14px 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+  border: none;
+  border-radius: 40px;
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:992px) 
+{
+  .hero
+  {
+    padding: 108px 0;
+  }
+
+  .hero__title
+  {
+    font-size: 34px;
+  }
+  .hero__inner
+  {
+    padding:0 50px;
+  }
+
+  .orange-text
+  {
+    margin-bottom: 31px;
+    font-size: 16px;
+  }
+  
+  .hero__text
+  {
+    margin-bottom: 35px;
+    font-size: 14px;
+  }
+  
+  
+  .hero__btn
+  {
+    padding: 12px 20px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+
+
+
+}
+
+@media only screen and (max-width:992px) 
+{
+  .hero
+  {
+    background-image: url(../images/Vector\ 1hero-mobile-bg.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero__inner
+  {
+    padding-left: 40px ;
+  }
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width:992px) 
+{
+  .hero
+  {
+    background-image: url(../images/Group\ 1352-hero-xl-bg.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero__inner
+  {
+    position: relative;
+    padding-left: 72px;
+  }
+
+  .hero__inner::after
+  {
+    position: absolute;
+    content: "";
+    width: 675px;
+    height: 590px;
+    top: -45px;
+    right: -50px;
+    background-image: url(../images/jevi-web-studio-ar-vr\ 1-hero-people.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+

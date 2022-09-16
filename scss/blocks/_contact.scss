@@ -1,0 +1,62 @@
+
+.contact__inner
+{
+  background-color: #1B1B1B;
+}
+
+.contact__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 187.5%;
+  color: #222222;
+}
+
+.contact__text
+{
+  margin-bottom: 74px;
+}
+
+
+@media only screen and (max-width:922px ) 
+{
+  .contact__text
+  {
+    margin-bottom: 41px;
+  }
+}
+
+
+
+
+
+
+.contact__btn
+{
+  top: 6px;
+  bottom: 6px;
+  right: 6px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #DC7000;
+}
+
+
+
+.contact
+{
+  padding-bottom: 69px;
+}
+
+@media only screen and (min-width:922px)
+{
+  .contact
+  {
+    padding-bottom: 148px;
+  }
+  
+  
+}
+

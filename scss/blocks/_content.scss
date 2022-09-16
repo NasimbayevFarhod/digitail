@@ -1,0 +1,71 @@
+
+
+.content
+{
+  padding-bottom: 125px;
+}
+
+.content__img
+{
+  width: 100%;
+}
+
+.content__title
+{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.content__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #515151;
+}
+
+.content__second-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #515151;
+}
+
+.content__btn
+{
+  padding: 13px 45px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #DC7000;
+}
+
+
+
+
+@media only screen and (min-width:922) {
+
+  .content__title
+  {
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 34px!important ;
+  }
+  
+  .content__text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  
+  .content__second-text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  
+}
+
+
